@@ -18,7 +18,7 @@ class DetailNewsViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.navigationBar.isHidden = true
+//        navigationController?.navigationBar.isHidden = true
         titleLbl.text = article?.title
         sourceLbl.text = (article?.url)! as String
         descriptionTxtView.text = article?.description

@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         setupTableView()
         rowsVM?.vc = self
         rowsVM?.getRowsInfoFromAPI()
+        self.title = "World News Feeed"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Refresh", style: .plain, target: self, action: #selector(refreshButtonClicked))
     }
     
